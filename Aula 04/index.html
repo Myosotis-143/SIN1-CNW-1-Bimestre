@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+<body>
+    <h1>Principais Formações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Na frase temos uma <b>parte do texto em negrito</b> usano tag B (Não semântica)<p>
+    <p>Na frase temos uma <strong>parte do texto em negrito</strong> usando tag STRONG (Com semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando tag I (Não semântica)</p>
+    <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando tag EM (Com semântica)</p>
+    <h2>Texto Marcador</h2>
+    <p> Aqui vamos usar um texto com destaque de <mark>marcador de texto</mark> usando mark </p>
+    <p> Aqui vamos usar um texto com destaque de <mark style="background-color: pink;">marcador de texto</mark> usando mark </p>
+    <h2>Texto grande e pequeno </h2>
+    <p> Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
+    <h2>Texto deletado</h2>
+    <p> Neste parágrafo vamos trabalhar com um texto <del>que foi deletado</del> da frase (forma semântica)</p>
+    <h2>Texto inserido</h2>
+    <p> Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semântica </p>
+    <p> Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica </p>
+    <h2>Texto sobrescrito</h2>
+    <p> Vamos demonstrar uma fórmula de equação do segundo grau: <sub>ax² + bx + c = 0</sub> usando a tag SUB </p>
+    <h2>Texto subscrito</h2>
+    <p> Vamos demonstrar o texto subscrito com a fórmula: H<sub>2</sub>O </p>
+    <h2>Trecho de código fonte</h2>
+    <p><pre>import math
+
+def solve_quadratic(a, b, c):
+    """
+    Solves a quadratic equation ax² + bx + c = 0
+    Returns the roots or a message if no real solutions exist
+    """
+    
+    # Calculate the discriminant
+    discriminant = b**2 - 4*a*c
+    
+    if discriminant < 0:
+        return "No real solutions (discriminant is negative)"
+    elif discriminant == 0:
+        # One solution
+        x = -b / (2*a)
+        return f"One solution: x = {x}"
+    else:
+        # Two solutions
+        sqrt_discriminant = math.sqrt(discriminant)
+        x1 = (-b + sqrt_discriminant) / (2*a)
+        x2 = (-b - sqrt_discriminant) / (2*a)
+        return f"Two solutions: x1 = {x1}, x2 = {x2}"
+
+# Example usage
+a = 1
+b = -5
+c = 6
+
+result = solve_quadratic(a, b, c)
+print(result)</code></p>
+<h2>Citações (quotation) simples</h2>
+<p>Segundo Steve Jobs <q>A tecnologia move o mundo</q></p>
+<h2>Citações completas (livros)</h2>
+<p>Segundo a personagem raposa no livro "O pequeno príncipe"</p>
+<blockquote cite="https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery_1.pdf"
+    <p>Tu te tornas eternamente responsável por aquilo que cativas.</p>
+<h2></h2>
