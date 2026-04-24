@@ -1,0 +1,10 @@
+#titulo {
+    font-size: 24px;
+    color: #F22D93;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#titulo:hover {
+    color: #F2BBE5;
+}
