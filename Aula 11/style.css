@@ -15,7 +15,7 @@ body{
 font-family: 'times new roman', serif;
 font-size: 1em;
 color: #99DDF6;
-background-color: #99DDF6;
+background: linear-gradient(to right, #99DDF6, #409FE5, #3BAFBE);
 }
 h1 {
 font-size: 3em;
